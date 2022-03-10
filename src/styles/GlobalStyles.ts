@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle`
-  * {
+export default createGlobalStyle` 
+  * { /* Aqui estou dizendo que todos os elementos terão essa configuração */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +9,8 @@ export default createGlobalStyle`
     color: var(--white);
   }
   html, body, #root {
-    max-height: 100vh;
-    max-width: 100vh;
+    max-height: 100vh; /* A altura da tela será 100% do visor da tela */
+    max-width: 100vw; /* A largura da tela será 100% do visor da tela */
 
     width: 100%;
     height: 100%;
